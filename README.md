@@ -2,7 +2,7 @@
 
 My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solution here was written by hand.
 
-**1** solved · 1 problems · 0 labs · 0 math
+**2** solved · 2 problems · 0 labs · 0 math
 
 ![Coverage](./coverage.svg)
 
@@ -12,6 +12,7 @@ My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solu
 
 | | Difficulty | Solved | |
 | --- | --- | --- | --- |
+| [KL Divergence Estimator for GRPO](https://www.deep-ml.com/problems/225) | easy | 2026-11-09 | [solution](problems/0225-kl-divergence-estimator-for-grpo) |
 | [Implement Speculative Decoding Verification](https://www.deep-ml.com/problems/394) | hard | 2026-11-08 | [solution](problems/0394-implement-speculative-decoding-verification) |
 
 ---

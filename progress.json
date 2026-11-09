@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T02:43:28.005Z",
+  "generated_at": "2026-11-09T20:41:23.953Z",
   "items": {
     "problem:394": {
       "kind": "problem",
@@ -13,6 +13,19 @@
       "last_pushed_at": "2026-11-08T02:43:23.951Z",
       "language": "python",
       "lines": 40
+    },
+    "problem:225": {
+      "kind": "problem",
+      "id": "225",
+      "title": "KL Divergence Estimator for GRPO",
+      "difficulty": "easy",
+      "category": "Reinforcement Learning",
+      "url": "https://www.deep-ml.com/problems/225",
+      "path": "problems/0225-kl-divergence-estimator-for-grpo",
+      "first_solved_at": "2026-11-09T20:41:23.266Z",
+      "last_pushed_at": "2026-11-09T20:41:23.266Z",
+      "language": "python",
+      "lines": 17
     }
   }
 }
