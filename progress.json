@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T18:17:43.506Z",
+  "generated_at": "2026-11-13T22:02:05.573Z",
   "items": {
     "problem:394": {
       "kind": "problem",
@@ -37,6 +37,19 @@
       "path": "problems/0383-top-p-nucleus-sampling",
       "first_solved_at": "2026-11-13T18:17:42.821Z",
       "last_pushed_at": "2026-11-13T18:17:42.821Z",
+      "language": "python",
+      "lines": 23
+    },
+    "problem:125": {
+      "kind": "problem",
+      "id": "125",
+      "title": "Implement a Sparse Mixture of Experts Layer",
+      "difficulty": "hard",
+      "category": "Deep Learning",
+      "url": "https://www.deep-ml.com/problems/125",
+      "path": "problems/0125-implement-a-sparse-mixture-of-experts-layer",
+      "first_solved_at": "2026-11-13T22:02:04.362Z",
+      "last_pushed_at": "2026-11-13T22:02:04.362Z",
       "language": "python",
       "lines": 23
     }
