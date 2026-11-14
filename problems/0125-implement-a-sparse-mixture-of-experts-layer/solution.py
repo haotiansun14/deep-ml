@@ -12,11 +12,20 @@ def moe(x: torch.Tensor, We: torch.Tensor, Wg: torch.Tensor, n_experts: int, top
     Returns:
         Output tensor of shape (n_batch, l_seq, d_model)
     """
-    logits = x @ Wg # b, l, e
-    values, idx = logits.topk(top_k, dim=-1) # b, l, k
-    weights = values.softmax(dim=-1) # b, l, k
+    B, L, D = x.shape
+    x_flat = x.reshape(-1, D)
+    logits = x_flat @ Wg # bl, e
+    values, idx = logits.topk(top_k, dim=-1) # bl, k
+    weights = values.softmax(dim=-1) # bl, k
 
-    selected_We = We[idx] # b, l, k, d, d
-    output = einsum("bld, blkdm, blk -> blm", x, selected_We, weights)
-    return output
+    out = torch.zeros_like(x_flat) # bl, d
+    for e in range(n_experts):
+        tok, slot = (idx == e).nonzero(as_tuple=True)
+        if tok.numel():
+            out.index_add_(
+                0, tok, 
+                weights[tok, slot, None] * (x_flat[tok] @ We[e]) # bl, d
+            )
+
+    return out.reshape(B, L, D)
 
