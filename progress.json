@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T21:28:48.077Z",
+  "generated_at": "2026-11-19T00:08:30.481Z",
   "items": {
     "problem:394": {
       "kind": "problem",
@@ -76,6 +76,19 @@
       "path": "problems/0223-qlora-quantized-low-rank-adaptation-forward-pass",
       "first_solved_at": "2026-11-15T21:28:47.571Z",
       "last_pushed_at": "2026-11-15T21:28:47.571Z",
+      "language": "python",
+      "lines": 33
+    },
+    "problem:989": {
+      "kind": "problem",
+      "id": "989",
+      "title": "MLP Character-Level Language Model Forward Pass",
+      "difficulty": "medium",
+      "category": "Deep Learning",
+      "url": "https://www.deep-ml.com/problems/989",
+      "path": "problems/0989-mlp-character-level-language-model-forward-pass",
+      "first_solved_at": "2026-11-19T00:08:29.748Z",
+      "last_pushed_at": "2026-11-19T00:08:29.748Z",
       "language": "python",
       "lines": 33
     }
