@@ -2,7 +2,7 @@
 
 My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solution here was written by hand.
 
-**10** solved · 10 problems · 0 labs · 0 math
+**11** solved · 11 problems · 0 labs · 0 math
 
 ![Coverage](./coverage.svg)
 
@@ -13,6 +13,7 @@ My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solu
 | | Difficulty | Solved | |
 | --- | --- | --- | --- |
 | [KL Divergence Estimator for GRPO](https://www.deep-ml.com/problems/225) | easy | 2026-11-09 | [solution](problems/0225-kl-divergence-estimator-for-grpo) |
+| [Backpropagation Gradients for a Dense Layer](https://www.deep-ml.com/problems/1076) | medium | 2026-11-19 | [solution](problems/1076-backpropagation-gradients-for-a-dense-layer) |
 | [Implement Gated Attention](https://www.deep-ml.com/problems/271) | medium | 2026-11-19 | [solution](problems/0271-implement-gated-attention) |
 | [KV Cache for Efficient Autoregressive Attention](https://www.deep-ml.com/problems/376) | medium | 2026-11-19 | [solution](problems/0376-kv-cache-for-efficient-autoregressive-attention) |
 | [LoRA: Low-Rank Adaptation Forward Pass](https://www.deep-ml.com/problems/222) | medium | 2026-11-15 | [solution](problems/0222-lora-low-rank-adaptation-forward-pass) |
